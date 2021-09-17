@@ -1,2 +1,3 @@
 # Ola_Mundo
- Primeiro repositório versionado
+ Meu primeiro repositório versionado
+Edição via Virtual Studio Code
