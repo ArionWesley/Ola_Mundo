@@ -1,4 +1,8 @@
-# Ola_Mundo
- Meu primeiro repositório versionado
+# Olá, Mundo!
+
+###  Aqui estão os primeiros projetos da minha tragetória, usem como quiserem!
  
-Edição via **Virtual Studio Code**
+# Até o momento utilisei os seguinte programas:
+
+- **Visualg**
+- **Virtual Studio Code**
