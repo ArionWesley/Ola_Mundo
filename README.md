@@ -2,7 +2,7 @@
 
 ###  Aqui estão os primeiros projetos da minha tragetória, usem como quiserem!
  
-# Até o momento utilisei os seguinte programas:
+# Até o momento utilisei os seguintes programas:
 
 - **Visualg**
 - **Virtual Studio Code**
