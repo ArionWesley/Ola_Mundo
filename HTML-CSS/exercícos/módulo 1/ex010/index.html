@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando o uso de Mídias</title>
+    <link rel="shortcut icon" href="pasta suporte/emojifeliz.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Adição de Mídia</h1>
+    <h2><ins>Imagens Dinâmicas</ins>: &#x1F602</h2>
+    <picture>
+        <source media="(max-width:750px)" srcset="pasta-suporte/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="pasta-suporte/foto-m.png" type="image/png">
+        <img src="pasta-suporte/foto-g.png" alt="Imagem dinâmica">
+    </picture>
+    <h2><ins>Audios</ins>: &#x1F604</h2>
+    <h3>Forma mais simples:</h3>
+    <audio src="pasta-suporte/audio.mp3" preload="metadata" controls autoplay loop></audio>
+    <h3>Forma adaptativa:</h3>
+    <audio controls loop preload="metadata">
+        <source src="pasta-suporte/audio.mp3" type="audio/mpeg">
+        <source src="pasta-suporte/audio.ogg" type="audio/ogg">
+        <source src="pasta-suporte/audio.wav" type="audio/wav">
+        <p>Infelizmente esse navegador não é compatível com nossos formatos de áudio.
+        <a href="pasta-suporte/audio.mp3" download="audio.mp3" type="audio/mpeg"></a></p>
+    </audio>
+    <h2><ins>Vídeos</ins>: &#x1F603</h2>
+    <h3>Hospedagem local:</h3>
+    <h4>Simples:</h4>
+    <video src="pasta-suporte/video.mp4" width="450px" preload="metadata" controls loop></video>
+    <h4>Adaptativa:</h4>
+    <video width="450px" controls loop autoplay preload="metadata">
+        <source src="pasta-suporte/video.mp4" type="aplication/mp4">
+        <source src="pasta-suporte/video.webm" type="video/webm">
+        <source src="pasta-suporte/video.ogv" type="vidio/ogv">
+    </video>
+    <h3>Hospedagem externa:</h3>
+    <h4>Youtube:</h4>
+    <iframe width="450" height="255" src="https://www.youtube.com/embed/Qy6S8GcyeVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4>Vimeo:</h4>
+</body>
+</html>
