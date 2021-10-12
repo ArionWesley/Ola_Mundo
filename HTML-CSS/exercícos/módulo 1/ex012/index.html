@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando CSS no Head</title>
+    <style>
+        body{background-color: lightgoldenrodyellow; font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+        }
+        h1{color: lightgreen; font-size: 2em; text-align: center;}
+        p{color: mediumaquamarine; text-align: justify;}
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <ins>Eius debitis eos quam natus maiores, dolores atque consectetur voluptates perspiciatis aperiam?</ins> Totam aspernatur velit iste laboriosam ut tempora molestiae, eos laborum?</p>
+    <p>Lorem ipsum dolor sit amet <strong>consectetur</strong>, adipisicing elit. Harum ipsa eveniet cupiditate distinctio, neque <del>nostrum laborum</del> dignissimos vitae. Minima eius <em>voluptate maiores rerum consequuntur illo dicta</em>, nemo sequi iusto commodi.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="pasta-suporte/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="pasta-suporte/foto-m.png" type="image/png">
+        <img src="pasta-suporte/foto-g.png" alt="imagens dinâmicas">
+    </picture>
+    <audio controls loop autoplay preload="metadata">
+        <source src="pasta-suporte/audio.mp3" type="audio/mpeg">
+        <source src="pasta-suporte/audio.ogg" type="audio/ogg">
+        <source src="pasta-suporte/audio.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não permite a emissão de áudio. Então, <a href=" png" download="foto-g.png" type="image/png">baixe-o aqui</a></p>
+    </audio>
+</body>
+</html>
