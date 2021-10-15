@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to bottom, rgb(143, 122, 96), rgb(105, 85, 62));
+    font-family: Arial, verdana, sans-serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+main {
+    background-color: rgb(226, 253, 244);
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-align: justify;
+}
+h1, h2, h3, h4 {
+    color: indigo;
+}
