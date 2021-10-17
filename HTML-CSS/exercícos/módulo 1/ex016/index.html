@@ -84,46 +84,47 @@ Texto Pré-moldado/    Aparece   assim    c o m o     e s c r i t o   no código
         <h2>Multimídia</h2>
         <ul>
             <li>
-                <h3>Imagens</h3>
+                <h3 class="de-image">Imagens</h3>
             </li>
-                <h4>Simples</h4>
+                <h4 class="de-image">Simples</h4>
                 <img src="pasta-suporte/foto-p.png" alt="Imagem pequena">
-                <h4>Dinâmicas</h4>
+                <h4 class="de-image">Dinâmicas</h4>
                 <picture>
                     <source media="(max-width: 750px)" srcset="pasta-suporte/foto-p.png" type="image/png">
                     <source media="(max-width: 1050px)" srcset="pasta-suporte/foto-m.png" type="image/png">
                     <img src="pasta-suporte/foto-g.png" alt="teste de imagens dinâmicas">
                 </picture>
             <li>
-                <h3>Áudios</h3>
+                <h3 class="de-audio">Áudios</h3>
             </li>
-                <h4>Simples</h4>
+                <h4 class="de-audio">Simples</h4>
                 <audio src="pasta-suporte/audio.mp3" controls loop autoplay preload="metadata"></audio>
-                <h4>Completo</h4>
+                <h4 class="de-audio">Completo</h4>
                 <audio controls loop autoplay >
                     <source src="pasta-suporte/audio.mp3" type="audio/mpeg">
                     <source src="pasta-suporte/audio.ogg" type="audio/ogg">
                     <source src="pasta-suporte/audio.wav" type="audio/wav"> <!--Não indicado poir é um arquivo caracteristicamente muito grande-->
                 </audio>
             <li>
-                <h3>Vídeos internos</h3>
+                <h3 class="de-video">Vídeos internos</h3>
             </li>
-            <h4>Simples</h4>
+            <h4 class="de-video">Simples</h4>
             <video src="pasta-suporte/video.mp4" width="90%" controls loop preload="metadata"></video>
-            <h4>Completo</h4>
+            <h4 class="de-video">Completo</h4>
             <video width="90%" controls autoplay loop preload="metadata">
                 <source src="pasta-suporte/video.mp4" type="application/mp4">
                 <source src="pasta-suporte/video.ogv" type="video/ogv">
                 <source src="pasta-suporte/video.webm" type="video/webm">
             </video>
             <li>
-                <h3>Vídeos externos</h3>
+                <h3 class="de-video">Vídeos externos</h3>
             </li>
             <iframe width="90%" height="518" src="https://www.youtube.com/embed/3ZFYXkzXhqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </ul>
-        <a href="https://g1.globo.com/" target="_blank" rel="external">Ir para uma página de notícias</a>
-        <br>
-        <a href="page2.html" target="_self" rel="next">Ir para a página secundária</a>
+            <p class="p-especial">
+                <a href="https://g1.globo.com/" target="_blank" rel="external" >Ir para uma página de notícias</a>
+                <a href="page2.html" target="_self" rel="next">Ir para a página secundária</a>
+            </p>
     </main>
 </body>
 </html>
