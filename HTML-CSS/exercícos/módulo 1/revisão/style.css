@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+body {
+    background-image: linear-gradient(to bottom, rgb(143, 122, 96), rgb(105, 85, 62));
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    background-color: rgb(226, 253, 244);
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: indigo;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2, h3, h4 {
+    color: indigo;
+    font: bold 'times new romam', times, serif;
+}
+
+p {
+    text-align: justify;
+}
+
+.de-video {
+    color: brown;
+}
+
+.de-audio {
+    color: rgb(250, 104, 0);
+}
+
+.de-image {
+    color: deeppink;
+}
+
+a {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold
+}
+a:visited {
+    color: rgb(69, 133, 6);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a::after {
+    content: ' >';
+}
+
+a::before {
+    content: '< ';
+}
+
+.p-especial {
+    text-align: center;
+}
