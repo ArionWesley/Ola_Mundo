@@ -1,5 +1,41 @@
 @charset "utf-8";
 
 h1 {
+    color: chocolate;
+}
+body {
     text-align: center;
+    font: 400 20px arial;
+    content: 200px;
+    padding: 10px;
+}
+p#subtitulo {
+    background-color: aqua;
+}
+.destaque {
+    background-color: aquamarine;
+    font: bold 30px arial, verdana, sans-serif;
+    color: azure;
+}
+.destaque:hover {
+    color: brown;
+}
+div {
+    width: 300px;
+    margin: auto;
+}
+div > p {
+    display: none;
+}
+div:hover {
+    color: brown;
+}
+#div1:hover::before {
+    content: ">>";
+}
+#div1:hover::after {
+    content: "<<";
+}
+div:hover > p {
+    display: block;
 }
